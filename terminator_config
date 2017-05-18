@@ -1,0 +1,115 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, TestPlugin, ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  suppress_multiple_term_dialog = True
+  title_transmit_bg_color = "#d30102"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 1500, 850
+      title = david@davidsThinkpad: ~
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = None, david@davidsThinkpad: ~
+      last_active_term = 7cc1a410-774d-4c66-99c9-f20fb376c111, 7f583916-3548-4b51-8de8-01b42e1473e2
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 680
+      ratio = 0.5
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 680
+      ratio = 0.5
+      type = HPaned
+    [[[child6]]]
+      order = 0
+      parent = child5
+      position = 750
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = b5c6510c-63f9-4965-951a-f888526727db
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 7cc1a410-774d-4c66-99c9-f20fb376c111
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 7f583916-3548-4b51-8de8-01b42e1473e2
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 60939c27-94ca-4b3e-82d0-98088879fe92
+    [[[terminal9]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = b1a48274-7af9-4616-bf48-9e25ea3db75a
+  [[window]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 9b1f962b-d54f-41ec-b2d2-9b389a67709d
+      last_active_window = False
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 642, 426
+      title = david@davidsThinkpad: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 9b1f962b-d54f-41ec-b2d2-9b389a67709d
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_image = None
+    cursor_color = "#eee8d5"
+    font = Inconsolata Medium 12
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_system_font = False
+  [[solarized-dark]]
+    background_color = "#002b36"
+    background_image = None
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+    palette = "#073642:#dc322f:#719e07:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[solarized-light]]
+    background_color = "#eee8d5"
+    background_image = None
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
